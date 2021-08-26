@@ -1,0 +1,76 @@
+body, html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#layout{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#calc-box{
+    height: 300px;
+    width: 250px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(134, 134, 134);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#display-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(134, 134, 134);
+    border-width: 1px;
+    height: 15%;
+    width: 90%;
+}
+
+#display{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 90%;
+    width: 90%;
+}
+
+#keys{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-top: 5px;
+    height: 75%;
+    width: 90%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.calc-key{
+    display: flex;
+    height: 80%;
+    width: 80%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(134, 134, 134);
+    border-width: 1px;
+}
