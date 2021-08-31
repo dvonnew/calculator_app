@@ -25,8 +25,6 @@ function run(){
             display(screen, b.join(''))
         }
 
-        console.log(a)
-        console.log(b)
         return a,b 
     }))
 
@@ -56,7 +54,6 @@ function run(){
         display(screen, x)
         clearCache(a,b)
         a.push(x)
-        console.log(a)
         return(a)
     })
 
@@ -66,10 +63,6 @@ function run(){
         sign = ''
         return sign
     })
-
-    console.log(a)
-    console.log(b)
-    console.log(x)
 
 }
 
