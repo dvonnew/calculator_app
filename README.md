@@ -36,10 +36,16 @@
             - clear
 
 4. Create the functions that populate the display when you click the number buttons… you should be storing the ‘display value’ in a variable somewhere for use in the next step.
+    - just the numbers
+    - onclick event
+    - add the number to the text in the display
+        - make the display value an array and join the numbers together???
 
 5. Make the calculator work! You’ll need to store the first number that is input into the calculator when a user presses an operator, and also save which operation has been chosen and then operate() on them when the user presses the “=” key.
     - You should already have the code that can populate the display, so once operate() has been called, update the display with the ‘solution’ to the operation.
     - This is the hardest part of the project. You need to figure out how to store all the values and call the operate function with them. Don’t feel bad if it takes you a while to figure out the logic.
+
+        - if there's a click event on one of the operator functions, we will store the sign value, then we will start a new array b which takes in the new numbers and displays them on the screen. On the equals (=) click, we then operate based off the sign and 
 
 6. Gotchas: watch out for and fix these bugs if they show up in your code:
     - Users should be able to string together several operations and get the right answer, with each pair of numbers being evaluated at a time. For example, 12 + 7 - 5 * 3 = should yield 42. An example of the behavior we’re looking for would be this student solution. Your calculator should not evaluate more than a single pair of numbers at a time. If you enter a number then an operator and another number that calculation should be displayed if your next input is an operator. The result of the calculation should be used as the first number in your new calculation.

@@ -74,3 +74,13 @@ body, html{
     border-color: rgb(134, 134, 134);
     border-width: 1px;
 }
+
+button:hover{
+    border-style: solid;
+    border-color:rgb(0, 0, 0);
+    border-width: 1px;
+}
+
+button:active{
+    background-color:rgb(87, 87, 87); ;
+}
